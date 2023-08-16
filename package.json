@@ -1,5 +1,5 @@
 {
-  "name": "@BigOceanGG/sdk-core",
+  "name": "@bigoceangg/sdk-core",
   "license": "MIT",
   "version": "4.0.6",
   "description": "⚒️ An SDK for building applications on top of Uniswap V3",
@@ -13,6 +13,10 @@
     "uniswap",
     "ethereum"
   ],
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "module": "dist/sdk-core.esm.js",
   "scripts": {
     "build": "tsdx build",
