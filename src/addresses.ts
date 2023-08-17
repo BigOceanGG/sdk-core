@@ -72,6 +72,15 @@ const CELO_ADDRESSES: ChainAddresses = {
   tickLensAddress: '0x5f115D9113F88e0a0Db1b5033D90D4a9690AcD3D'
 }
 
+const CHER_TEST_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '0xAfE208a311B21f13EF87E33A90049fC17A7acDEc',
+  multicallAddress: '0x633987602DE5C4F337e3DbF265303A1080324204',
+  quoterAddress: '0x82825d0554fA07f7FC52Ab63c961F330fdEFa8E8',
+  v3MigratorAddress: '0x3cFd4d48EDfDCC53D3f173F596f621064614C582',
+  nonfungiblePositionManagerAddress: '0x3d79EdAaBC0EaB6F08ED885C05Fc0B014290D95A',
+  tickLensAddress: '0x5f115D9113F88e0a0Db1b5033D90D4a9690AcD3D'
+}
+
 // BNB v3 addresses
 const BNB_ADDRESSES: ChainAddresses = {
   v3CoreFactoryAddress: '0xdB1d10011AD0Ff90774D0C6Bb92e5C5c8b4461F7',
@@ -147,6 +156,7 @@ const BASE_GOERLI_ADDRESSES: ChainAddresses = {
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
   [ChainId.MAINNET]: MAINNET_ADDRESSES,
+  [ChainId.CHER_TEST]: CHER_TEST_ADDRESSES,
   [ChainId.OPTIMISM]: OPTIMISM_ADDRESSES,
   [ChainId.ARBITRUM_ONE]: ARBITRUM_ONE_ADDRESSES,
   [ChainId.POLYGON]: POLYGON_ADDRESSES,
