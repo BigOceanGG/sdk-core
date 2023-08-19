@@ -73,12 +73,12 @@ const CELO_ADDRESSES: ChainAddresses = {
 }
 
 const CHER_TEST_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x01C29df2C647d2CF3E002F32c3455E8715836aee',
-  multicallAddress: '0xBC2180115c5eF8A6db0173B04057639cB485C707',
-  quoterAddress: '0xD02F88523e15072C142EcA4cEabBAbf40f56589a',
-  v3MigratorAddress: '0x1285036cf68A2fA0D682Ba8a71a9EEEcDCb60A79',
-  nonfungiblePositionManagerAddress: '0x1285036cf68A2fA0D682Ba8a71a9EEEcDCb60A79',
-  tickLensAddress: '0xF79dEC9D871c0d9bC5798315e3171DF76a66c7cb'
+  v3CoreFactoryAddress: '0x9C5B0800f1d1C2319944026486D6915ad011DBC7',
+  multicallAddress: '0x4a28bB13a47121778C8110801e91e55c3fF8c6ED',
+  quoterAddress: '0x98a1e8b86f1a2B4955e6132a2A83ae58ad3Af2Fb',
+  v3MigratorAddress: '0x9F190600F9837a34a13B1b9204A1b922F4F8895B',
+  nonfungiblePositionManagerAddress: '0x9209c34626A23D2959ce7813458fE458f1A64625',
+  tickLensAddress: '0x4E55cDcb81A5c51a6f80A832b3164b0C6dA84b21'
 }
 // BNB v3 addresses
 const BNB_ADDRESSES: ChainAddresses = {
